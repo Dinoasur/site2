@@ -1,0 +1,176 @@
+<html>
+
+    <head>
+        <link href="cstyle.css" rel="stylesheet">
+    </head>
+
+<body>
+
+<h1>Portfolio</h1>
+
+<head><title>Jayla Wyandon Portfolio Page</title></head>
+
+<p>Computer Information Systems</p>
+<ul>
+   <li>Northwestern State University, Natchitoches, LA, Spring 2022</li>
+   <li>Major GPA 3.207, Overall GPA 3.207 </li>
+   <li>Graduation anticipated in spring 2023</li>
+</ul>
+
+<p>Languages</p>
+<ul>
+   <li>Knowledge of Java</li>
+   <li>Knowledge of CSS</li>
+   <li>designing pages with HTML and JavaScript</li>
+</ul>
+
+<p>Systems</p>
+<ul>
+   <li>Coding in Android Studio</li>
+   <li>Codingin Eclipse</li>
+   <li>Microsoft Access, Excel, Word, and SQL servers </li>
+</ul>
+
+<p>Certifications</p>
+<ul>
+   <li>ComptTIA IT Fundamentals</li>
+</ul>
+
+
+<div class="text">
+  <p>Example of text with special effects.</p>
+</div>
+
+<div id="gradient">
+<p>Example of a gradient.</p>
+</div>
+
+<div id="animation">
+  <p>Example of animation.</p>
+</div>
+
+<p>Example of transition (hover over).</p>
+<div id="transition">
+  
+</div>
+
+
+<p>Example of transformation (hover over).</p>
+<div id="transform">
+
+</div>
+
+
+	<div class="link">
+  <p><a href="resume.html">Resume</a>.
+<a href="goals.html">About</a>.
+<a href="portfolio.html">Portfolio</a>.
+<a href="index.html">Home</a>.
+<a href="submit.html">Form</a>.
+</p>
+</div>
+
+
+<script>
+
+function startgame() {
+
+	var answercard1 = prompt ("is your number in card 1? y/n");
+
+    var answercard2 = prompt ("is your number in card 2? y/n");
+
+    var answercard3 = prompt ("is your number in card 3? y/n");
+	
+	var answercard4 = prompt ("is your number in card 4? y/n");
+
+    var answercard5 = prompt ("is your number in card 5? y/n");
+
+    var answercard6 = prompt ("is your number in card 6? y/n");
+
+var valuecard1 = 0;
+var valuecard2 = 0;
+var valuecard3 = 0;
+var valuecard4 = 0;
+var valuecard5 = 0;
+var valuecard6 = 0;
+
+if (answercard1 == "y") {
+  var valuecard1 = 1;
+} else {
+  valuecard1 = 0;
+}
+if (answercard2 == "y") {
+  var valuecard2 = 2;
+} else {
+  valuecard2 = 0;
+}
+if (answercard3 == "y") {
+  var valuecard3 = 4;
+} else {
+  valuecard3 = 0;
+}
+if (answercard4 == "y") {
+  var valuecard4 = 8;
+} else {
+  valuecard4 = 0;
+}
+if (answercard5 == "y") {
+  var valuecard5 = 16;
+} else {
+  valuecard5 = 0;
+}
+if (answercard6 == "y") {
+  var valuecard6 = 32;
+} else {
+  valuecard6 = 0;
+}
+	
+  var finalnumber = valuecard1 + valuecard2 + valuecard3 + valuecard4 + valuecard5 + valuecard6;
+  
+  alert("your number is " + finalnumber);
+  
+}
+
+
+
+
+
+</script>
+
+<h1>
+This is the mystery calculator</h1>
+look at the 6 cards and pick a number between 1 and 63. once you memerize your number, press the button.
+
+<div class="card1">
+	<img src="card1.jpg" alt="card">
+
+	<img src="mystery-card-2.jpg" alt="card2">
+	
+	<img src="mystery-card-3.jpg" alt="card3">
+</div>
+
+<div class="card4">
+	<img src="mystery-card-4.jpg" alt="card4">
+
+	<img src="mystery-card-5.jpg" alt="card5">
+
+	<img src="mystery-card-6.jpg" alt="card6">
+</div>
+
+
+<button onclick="startgame()">START</button>
+
+<p>here is a picture of the the game a coded in java, as well as the user interface I coded.</p>
+
+
+<img id: "java" src="javaGUI.jpg" alt="Picture"
+width=auto
+height=500/>
+
+
+<div class="footer">
+  <p>Jayla Wyandon rainewy@outlook.com</p>
+</div>
+
+</body>
+</html>

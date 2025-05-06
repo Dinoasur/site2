@@ -1,0 +1,144 @@
+body {
+    background-image: url("background.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+p {
+   font-family: "monospace", "Arial", sans-serif;
+   font-size: 12pt;
+   text-align: left;
+   margin: 20px 20px; 
+}
+h1 {
+   position: static;
+   top:50px; left:50px;
+   margin: 40px 30px; 
+   padding: 20px 50px 40px;
+
+}
+
+img {
+border-radius: 15px; 
+
+   box-shadow: 5px 5px; 
+}
+
+.books {
+   left: 100px;
+   bottom: 10px;
+   
+}
+
+
+#pic {
+   left: 100px;
+   top: 10px;
+   
+}
+.link {
+   position: absolute;
+  left: 100px;
+  top:90px;
+  color: blue;
+}
+
+a:visited{
+	color: blue;
+}
+
+aside{
+		text-align: right;
+}
+
+section{
+		text-align: right;
+}
+
+a:hover{
+	color: orange;
+}
+
+a:active{
+	color: white;
+}
+
+a:[type=submit]{
+	color: white;
+}
+
+.footer {
+ style="position:absolute; top:50px; left:100px; bottom:0px;"
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.text {
+   text-shadow: 0 0 3px blue;
+   background-color: yellow;
+   box-shadow: 5px 5px; 
+}
+
+#gradient {
+   background-image: linear-gradient(to bottom right, green, yellow);
+   width: 100px;
+   height: 100px;
+}
+
+#animation {
+   color: red;
+   position: relative;
+   font-size: 50pt;
+   animation-name: move;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+}
+@keyframes move {
+   0%   { color:red; left:0px; top:0px; }
+   50%  { color:blue; left:200px; top:0px; }
+   100% { color:red; left:0px; top:0px; }
+}
+
+#transition {
+  width: 100px;
+  height: 60px;
+  background: yellow;
+  transition: width 2s;
+}
+#transition:hover {
+  width: 100%;
+  height: 10%;
+}
+
+#transform {
+  width: 100px;
+  height: 60px;
+  background-color: yellow;
+}
+
+#transform:hover {
+  transform: rotate(45deg);
+}
+
+label {
+   width: 50px;
+   display: inline-block;
+   text-align: right;
+   margin-right: 8px;
+}
+
+input[type=submit]:hover {
+   background-color: #07d;
+}
+
+#comments {
+   width: 500px;
+   height: 100px;
+   display: inline-block;
+   text-align: right;
+   margin-right: 8px;
+}
+
+
